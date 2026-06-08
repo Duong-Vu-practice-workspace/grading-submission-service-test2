@@ -22,12 +22,6 @@
         <minio.version>8.6.0</minio.version>
     </properties>
 
-    <repositories>
-        <repository>
-            <id>github</id>
-            <url>https://maven.pkg.github.com/Duong-Vu-practice-workspace/grading-common-lib-test2</url>
-        </repository>
-    </repositories>
 
     <dependencies>
         <dependency>
