@@ -5,8 +5,8 @@ on:
     branches: [main]
 
 env:
-  IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/grading-submission-service
-  CONFIG_REPO: Duong-Vu-practice-workspace/grading-submission-service-config-test2
+  IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/grading-submission
+  CONFIG_REPO: Duong-Vu-practice-workspace/grading-submission-config-test2
   SERVICE_NAME: submission-service
 
 jobs:
