@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 @SpringBootApplication
-@EntityScan("com.ptit.grading.common.model")
+@EntityScan({"com.ptit.grading.common.model", "com.ptit.grading.submission.model"})
 public class SubmissionServiceApplication {
 
     public static void main(String[] args) {
